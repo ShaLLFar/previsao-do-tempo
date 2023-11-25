@@ -12,8 +12,6 @@ botaoDeBusca.addEventListener("click", async () => {
     if(dados) preencherDadosNaTela(dados, cidade);
 });
 
-
-
 async function buscarDadosDaCidade(cidade) {
     const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${chaveDaApi}&q=${cidade}&aqi=no&lang=pt`;
     const resposta = await fetch(apiUrl);
