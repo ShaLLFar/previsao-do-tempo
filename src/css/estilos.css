@@ -1,0 +1,89 @@
+body {
+    background-color: #eeeeee;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+.container {
+    background-color: #1f2949;
+    color: #ffffff;
+    max-width: 300px;
+    text-align: center;
+    background-image: url('../imagens/background.png');
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0, 0.8) 0 10px 50px;
+}
+
+.busca{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.busca input{
+    background-color: #cecad6;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #252323;
+    font-size: 16px;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.busca .btn-busca{
+    background-color: #cecad6;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    padding: 0px 5px;   
+    opacity: 0.8;
+    border: 2px solid #252323;
+}
+
+.busca .imagem-de-busca{
+    width: 30px;
+    padding: 0px;
+    opacity: 0.8;   
+    border-radius: 50px;
+}
+
+.informacao-principal{
+    margin: 30px;   
+}
+
+.informacao-principal h1{
+    font-size: 18px;
+}
+
+.informacao-principal .temperatura{
+    font-size: 68px;
+    margin: 20px 0px;
+}
+
+.informacao-principal .condicao{
+    font-size: 20px;
+}
+
+.informacao-secundaria{
+    display: flexbox;
+    background-color: #cecad6;
+    color: #252323;
+    padding: 20px 30px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.informacao-secundaria .humidade,
+.informacao-secundaria .velocidade-do-vento {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+}
